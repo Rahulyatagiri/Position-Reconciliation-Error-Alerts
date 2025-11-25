@@ -1,0 +1,164 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    POSITION RECONCILIATION REPORT                             ║
+║                              2025-11-25 05:59:02                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+EXECUTIVE SUMMARY
+─────────────────
+Total Internal Positions:             20
+Total Prime Broker Positions:         21
+Total Breaks Identified:              13
+
+BREAKS BY SEVERITY
+──────────────────
+  CRITICAL   :   5 ██████████
+  HIGH       :   4 ████████
+  MEDIUM     :   4 ████████
+  LOW        :   0 
+
+BREAKS BY TYPE
+──────────────
+  Market Value Mismatch          :   6
+  Quantity Mismatch              :   5
+  Missing in Source              :   1
+  Price Mismatch                 :   1
+
+TOTAL MARKET VALUE VARIANCE: $   1,562,500.00
+
+DETAILED BREAK LIST
+───────────────────
+
+┌─ [CRITICAL] BRK-0001 ─────────────────────────────────
+│  Symbol:      NFLX
+│  Account:     HEDGE_FUND_01
+│  Type:        Missing in Source
+│  Internal:               0.00
+│  Prime Broker:   1,562,500.00
+│  Variance:      -1,562,500.00 (-100.00%)
+│  Details:     Position exists in Prime Broker but not in Internal
+└──────────────────────────────────────────────────────────────────
+
+┌─ [CRITICAL] BRK-0003 ─────────────────────────────────
+│  Symbol:      NVDA
+│  Account:     HEDGE_FUND_02
+│  Type:        Market Value Mismatch
+│  Internal:       4,750,463.00
+│  Prime Broker:   4,609,507.50
+│  Variance:        +140,955.50 (+2.97%)
+│  Details:     MV: Internal=$4,750,463.00 vs PB=$4,609,507.50
+└──────────────────────────────────────────────────────────────────
+
+┌─ [CRITICAL] BRK-0009 ─────────────────────────────────
+│  Symbol:      AAPL
+│  Account:     HEDGE_FUND_02
+│  Type:        Market Value Mismatch
+│  Internal:         332,010.00
+│  Prime Broker:     292,026.00
+│  Variance:         +39,984.00 (+12.04%)
+│  Details:     MV: Internal=$332,010.00 vs PB=$292,026.00
+└──────────────────────────────────────────────────────────────────
+
+┌─ [CRITICAL] BRK-0008 ─────────────────────────────────
+│  Symbol:      AAPL
+│  Account:     HEDGE_FUND_02
+│  Type:        Quantity Mismatch
+│  Internal:           1,860.00
+│  Prime Broker:       1,636.00
+│  Variance:            +224.00 (+12.04%)
+│  Details:     Quantity: Internal=1,860 vs PB=1,636
+└──────────────────────────────────────────────────────────────────
+
+┌─ [CRITICAL] BRK-0002 ─────────────────────────────────
+│  Symbol:      NVDA
+│  Account:     HEDGE_FUND_02
+│  Type:        Quantity Mismatch
+│  Internal:           5,426.00
+│  Prime Broker:       5,265.00
+│  Variance:            +161.00 (+2.97%)
+│  Details:     Quantity: Internal=5,426 vs PB=5,265
+└──────────────────────────────────────────────────────────────────
+
+┌─ [HIGH    ] BRK-0007 ─────────────────────────────────
+│  Symbol:      MSFT
+│  Account:     HEDGE_FUND_01
+│  Type:        Market Value Mismatch
+│  Internal:       2,345,769.90
+│  Prime Broker:   2,421,171.00
+│  Variance:         -75,401.10 (-3.21%)
+│  Details:     MV: Internal=$2,345,769.90 vs PB=$2,421,171.00
+└──────────────────────────────────────────────────────────────────
+
+┌─ [HIGH    ] BRK-0011 ─────────────────────────────────
+│  Symbol:      META
+│  Account:     HEDGE_FUND_02
+│  Type:        Market Value Mismatch
+│  Internal:         741,429.50
+│  Prime Broker:     792,004.50
+│  Variance:         -50,575.00 (-6.82%)
+│  Details:     MV: Internal=$741,429.50 vs PB=$792,004.50
+└──────────────────────────────────────────────────────────────────
+
+┌─ [HIGH    ] BRK-0006 ─────────────────────────────────
+│  Symbol:      MSFT
+│  Account:     HEDGE_FUND_01
+│  Type:        Quantity Mismatch
+│  Internal:           6,191.00
+│  Prime Broker:       6,390.00
+│  Variance:            -199.00 (-3.21%)
+│  Details:     Quantity: Internal=6,191 vs PB=6,390
+└──────────────────────────────────────────────────────────────────
+
+┌─ [HIGH    ] BRK-0010 ─────────────────────────────────
+│  Symbol:      META
+│  Account:     HEDGE_FUND_02
+│  Type:        Quantity Mismatch
+│  Internal:           1,466.00
+│  Prime Broker:       1,566.00
+│  Variance:            -100.00 (-6.82%)
+│  Details:     Quantity: Internal=1,466 vs PB=1,566
+└──────────────────────────────────────────────────────────────────
+
+┌─ [MEDIUM  ] BRK-0013 ─────────────────────────────────
+│  Symbol:      V
+│  Account:     HEDGE_FUND_02
+│  Type:        Market Value Mismatch
+│  Internal:         748,041.00
+│  Prime Broker:     720,459.60
+│  Variance:         +27,581.40 (+3.69%)
+│  Details:     MV: Internal=$748,041.00 vs PB=$720,459.60
+└──────────────────────────────────────────────────────────────────
+
+┌─ [MEDIUM  ] BRK-0005 ─────────────────────────────────
+│  Symbol:      GOOGL
+│  Account:     HEDGE_FUND_01
+│  Type:        Market Value Mismatch
+│  Internal:         902,587.50
+│  Prime Broker:     876,771.90
+│  Variance:         +25,815.60 (+2.86%)
+│  Details:     MV: Internal=$902,587.50 vs PB=$876,771.90
+└──────────────────────────────────────────────────────────────────
+
+┌─ [MEDIUM  ] BRK-0012 ─────────────────────────────────
+│  Symbol:      V
+│  Account:     HEDGE_FUND_02
+│  Type:        Quantity Mismatch
+│  Internal:           2,685.00
+│  Prime Broker:       2,586.00
+│  Variance:             +99.00 (+3.69%)
+│  Details:     Quantity: Internal=2,685 vs PB=2,586
+└──────────────────────────────────────────────────────────────────
+
+┌─ [MEDIUM  ] BRK-0004 ─────────────────────────────────
+│  Symbol:      GOOGL
+│  Account:     HEDGE_FUND_01
+│  Type:        Price Mismatch
+│  Internal:             141.25
+│  Prime Broker:         137.21
+│  Variance:              +4.04 (+2.86%)
+│  Details:     Price: Internal=$141.25 vs PB=$137.21
+└──────────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════════════════════
+                              END OF REPORT
+══════════════════════════════════════════════════════════════════════════════

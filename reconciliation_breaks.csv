@@ -1,0 +1,14 @@
+break_id,break_type,severity,symbol,account_id,internal_value,pb_value,variance,variance_pct,details
+BRK-0001,Missing in Source,CRITICAL,NFLX,HEDGE_FUND_01,0.0,1562500.0,-1562500.0,-100.0,Position exists in Prime Broker but not in Internal
+BRK-0002,Quantity Mismatch,CRITICAL,NVDA,HEDGE_FUND_02,5426.0,5265.0,161.0,2.97,"Quantity: Internal=5,426 vs PB=5,265"
+BRK-0003,Market Value Mismatch,CRITICAL,NVDA,HEDGE_FUND_02,4750463.0,4609507.5,140955.5,2.97,"MV: Internal=$4,750,463.00 vs PB=$4,609,507.50"
+BRK-0004,Price Mismatch,MEDIUM,GOOGL,HEDGE_FUND_01,141.25,137.21,4.04,2.86,Price: Internal=$141.25 vs PB=$137.21
+BRK-0005,Market Value Mismatch,MEDIUM,GOOGL,HEDGE_FUND_01,902587.5,876771.9,25815.6,2.86,"MV: Internal=$902,587.50 vs PB=$876,771.90"
+BRK-0006,Quantity Mismatch,HIGH,MSFT,HEDGE_FUND_01,6191.0,6390.0,-199.0,-3.21,"Quantity: Internal=6,191 vs PB=6,390"
+BRK-0007,Market Value Mismatch,HIGH,MSFT,HEDGE_FUND_01,2345769.9,2421171.0,-75401.1,-3.21,"MV: Internal=$2,345,769.90 vs PB=$2,421,171.00"
+BRK-0008,Quantity Mismatch,CRITICAL,AAPL,HEDGE_FUND_02,1860.0,1636.0,224.0,12.04,"Quantity: Internal=1,860 vs PB=1,636"
+BRK-0009,Market Value Mismatch,CRITICAL,AAPL,HEDGE_FUND_02,332010.0,292026.0,39984.0,12.04,"MV: Internal=$332,010.00 vs PB=$292,026.00"
+BRK-0010,Quantity Mismatch,HIGH,META,HEDGE_FUND_02,1466.0,1566.0,-100.0,-6.82,"Quantity: Internal=1,466 vs PB=1,566"
+BRK-0011,Market Value Mismatch,HIGH,META,HEDGE_FUND_02,741429.5,792004.5,-50575.0,-6.82,"MV: Internal=$741,429.50 vs PB=$792,004.50"
+BRK-0012,Quantity Mismatch,MEDIUM,V,HEDGE_FUND_02,2685.0,2586.0,99.0,3.69,"Quantity: Internal=2,685 vs PB=2,586"
+BRK-0013,Market Value Mismatch,MEDIUM,V,HEDGE_FUND_02,748041.0,720459.6,27581.4,3.69,"MV: Internal=$748,041.00 vs PB=$720,459.60"
